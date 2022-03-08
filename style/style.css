@@ -18,11 +18,7 @@ html{
     position: relative;
 }
 
-/* first shoe  */
-.first{
-    background-color: red;
-}
-
+/* common shoe  */
 .shoe-container{
     width: 60%;
     height: auto;
@@ -37,6 +33,25 @@ html{
     text-align: center;
 }
 
+/* first shoe  */
+.first{
+    background-color: red;
+}
+
+
 .first h2, .second h2{
     color: yellow;
+}
+/* second shoe */
+.second{
+    background-color: green;
+}
+
+/* last shoe  */
+.last{
+    background-color: yellow;
+}
+
+.last h2{
+    color:green;
 }
