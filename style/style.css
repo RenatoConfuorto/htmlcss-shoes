@@ -10,12 +10,42 @@ img{
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Bungee', cursive;
+
 }
 /* COMMON */
 .product{
     width: 100%;
     height: 100vh;
     position: relative;
+}
+/* NAV  */
+.nav{
+    list-style-type: none;
+    position: fixed;
+    top: 3em;
+    right: 2em;
+    z-index: 100;
+}
+
+.nav li{
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    margin-left: 1em;
+    background-color: white;
+    text-align: center;
+    line-height: 3em;
+    border-radius:50%;
+}
+
+.nav a{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-decoration: none;
+    /* display: inline-block; */
+    padding: 0.8em;
 }
 
 /* common shoe  */
@@ -29,7 +59,7 @@ html{
 }
 
 .shoe-container h2{
-    font-size: 4em;
+    font-size: 3.5em;
     text-align: center;
 }
 
